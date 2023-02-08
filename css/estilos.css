@@ -1,0 +1,122 @@
+html,body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+section{
+    width: 100%;
+    box-sizing: border-box;
+}
+h3{
+    margin-top: 0;
+    font-size: 3rem;
+}
+button{
+    cursor: pointer;
+    font-weight: 700;
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+.edit-btn{
+    color: #4fac7a;
+}
+.delete-btn{
+    color: #ac4f7a;
+}
+.clear-btn{
+    color: #adad22;
+}
+.alert{
+    margin: 0;
+    padding: .5rem;
+    font-size: 2rem;
+    visibility: hidden;
+    border-radius: .7rem;
+}
+.alert-danger{
+    color: #ac4f7a;
+    background-color: #f6c2c2;
+}
+.alert-success{
+    color: #4fac7a;
+    background-color: #d6fee9;
+}
+section.section-center{
+    max-width: 60rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 5rem  auto 0;
+    background-color: white;
+    padding: 4rem 1.5rem 1.5rem;
+    box-shadow: 0 0 1.5rem #00000044;
+}
+.form-control{
+    display: flex;
+}
+.form-control input{
+    flex-grow: 1;
+    padding: 1rem 2rem;
+    transition: border .3s;
+    background-color: #e0e8ee;
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    border: .3rem solid #e0e8ee;
+}
+.form-control input:focus,
+.form-control input:active{
+    outline: none;
+    border: .3rem solid #a4b6c4;
+}
+.form-control .submit-btn{
+    padding: 1rem 2rem;
+    border: 0 solid transparent;
+    border-top-right-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+}
+.submit-btn{
+    background-color: #a0e1b6;
+    transition: background-color .3s;
+}
+.submit-btn:hover{
+    background-color: #8cc39f;
+}
+.editItem-btn{
+    background-color: #a0afe1;
+}
+.editItem-btn:hover{
+    background-color: #8c9fc3;
+}
+.container-lista{
+    margin-top: 2rem;
+    visibility: hidden;
+}
+.show-item{
+    visibility: visible;
+}
+.item-da-lista{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 7rem;
+    justify-content: space-between;
+    transition: background-color .3s;
+    
+}
+.item-da-lista:hover{
+    background-color: #00000022;
+}
+.item-da-lista p{
+    margin: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    line-break: anywhere;
+    text-transform: capitalize;
+    max-width: calc(100% - 80px);
+}
